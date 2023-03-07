@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 
-html, 
+html,
 body {
-  color: white;
-  background-color: #1b1b32;
+  color: black;
+  background-color: #1a1a1a;
   font-family: Lato, sans-serif;
   margin-top: 40px;
 }
 
 h1 {
-  color: #1b1b32;
   font-size: 25px;
   font-family: Roboto, sans-serif;
   text-align: center;
@@ -32,14 +31,9 @@ h1 {
 .tareas-lista-principal {
   width: 600px;
   min-height: 500px;
-  background-color: #d0d0d5;
+  background-color: #c2c2c2;
   padding: 25px;
   margin: 10px;
   border-radius: 26px;
-}
-
-/*Tarea Contenedor*/
-.tarea-contenedor.completada{
-  background-color: #5a01a7;
-  text-decoration: line-through;
+  border: 2px black solid;
 }
